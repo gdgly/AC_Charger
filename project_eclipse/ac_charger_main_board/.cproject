@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.debug.700741935">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.debug.700741935" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<macros>
+					<stringMacro name="APOLLO_ROOT" type="VALUE_TEXT" value="../../../apollo"/>
+				</macros>
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.cross.arm.gnu.buildArtefactType.application" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.cross.arm.gnu.buildArtefactType.application" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.CWDLocator;org.eclipse.cdt.core.GmakeErrorParser" id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.debug.700741935" name="Debug" parent="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.debug" postannouncebuildStep="" postbuildStep="" preannouncebuildStep="" prebuildStep="">
+					<folderInfo id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.debug.700741935." name="/" resourcePath="">
+						<toolChain errorParsers="" id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.toolchain.debug.1481882094" name="ARM Windows GCC (Yagarto)" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.toolchain.debug">
+							<option id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.debugging.level.1441701995" name="Debug level" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.debugging.level" value="org.eclipse.cdt.cross.arm.gnu.base.option.debugging.level.max" valueType="enumerated"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.target.processor.1595579818" name="Processor" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.target.processor" value="org.eclipse.cdt.cross.arm.gnu.base.option.mcpu.cortex-m3" valueType="enumerated"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.addtools.createlisting.79618189" name="Create Extended Listing" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.addtools.createlisting" value="false" valueType="boolean"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.target.thumb.1589516615" name="Thumb (-mthumb)" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.target.thumb" value="true" valueType="boolean"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF" id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.platform.debug.1389653953" isAbstract="false" name="Windows Platform" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.platform.debug"/>
+							<builder buildPath="${workspace_loc:/ac_charger_main_board}/Debug" errorParsers="org.eclipse.cdt.core.GmakeErrorParser;org.eclipse.cdt.core.CWDLocator" id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.builder.debug.1412334536" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="ARM Yagarto Windows GNU Make builder" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.builder.debug"/>
+							<tool command="arm-none-eabi-gcc" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser" id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.assembler.debug.275652184" name="ARM Yagarto Windows GCC Assembler" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.assembler.debug">
+								<inputType id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.assembler.base.input.651835854" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.assembler.base.input"/>
+							</tool>
+							<tool command="arm-none-eabi-gcc" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="org.eclipse.cdt.core.GCCErrorParser" id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.compiler.debug.1410355104" name="ARM Yagarto Windows GCC C Compiler" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.compiler.debug">
+								<option id="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.optimization.level.485793927" name="Optimization level" superClass="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.optimization.level" value="org.eclipse.cdt.cross.arm.gnu.base.option.optimization.level.none" valueType="enumerated"/>
+								<option id="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.preprocessor.def.1654376785" name="Defined symbols (-D)" superClass="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.preprocessor.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__MICROLIB"/>
+									<listOptionValue builtIn="false" value="AW_LPC177X_8X"/>
+									<listOptionValue builtIn="false" value="AW_IMG_PRJ_BUILD"/>
+									<listOptionValue builtIn="false" value="AW_DEBUG"/>
+									<listOptionValue builtIn="false" value="AW_VDEBUG"/>
+									<listOptionValue builtIn="false" value="AW_VDEBUG_INFO"/>
+									<listOptionValue builtIn="false" value="AW_VDEBUG_WARN"/>
+									<listOptionValue builtIn="false" value="AW_VDEBUG_ERROR"/>
+									<listOptionValue builtIn="false" value="AW_CORTEX_M3"/>
+								</option>
+								<option id="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.optimization.functionsections.862400875" name="Function sections (-ffunction-sections)" superClass="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.optimization.functionsections" value="true" valueType="boolean"/>
+								<option id="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.include.paths.489496752" name="Include paths (-I)" superClass="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/user_config/awbl_hwconf_usrcfg}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/user_config/base/include/mtd}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/user_config/base/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/user_config/base/config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/user_config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/user_code}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/interface/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/interface/posix&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/3rdparty/net/lwip_1.4.x/src/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/3rdparty/net/lwip_1.4.x/src/include/netif&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/3rdparty/net/lwip_1.4.x/src/include/ipv4&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/3rdparty/net/lwip_1.4.x/src/netif/ppp&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/3rdparty/net/lwip_1.4.x/src/lwip/opt&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/3rdparty/net/lwip_1.4.x/test/unit&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/3rdparty/net/lwip_1.4.x/httpserver_raw&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/bsp/easy_arm_17xxm3&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/bsp/easy_arm_17xxm3_512k_exram&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/components/awbus_lite/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/components/awbus_lite/config&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/components/libc/awlibc/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/components/libc/newlib/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/components/net/lwip_1.4.x_adapter/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/components/usb/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/components/shell/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/components/shell/config&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/components/base/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/components/base/config&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/cpu/nxp/ametal_lpc17xx/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/rtk/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/apollo/components/net/modbus/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/rtk/config&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/psp/rtk/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/psp/rtk/config&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/psp/cplusplus/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/board&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/common/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/CMSIS/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/drivers/include&quot;"/>
+								</option>
+								<option id="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.optimization.datasections.1735980065" name="Data sections (-fdata-sections)" superClass="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.optimization.datasections" value="true" valueType="boolean"/>
+								<inputType id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.c.compiler.base.input.1756454802" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.c.compiler.base.input"/>
+							</tool>
+							<tool command="arm-none-eabi-g++" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="org.eclipse.cdt.core.GCCErrorParser" id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.compiler.debug.1919668542" name="ARM Yagarto Windows GCC C++ Compiler" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.compiler.debug">
+								<option id="org.eclipse.cdt.cross.arm.gnu.cpp.compiler.option.optimization.level.1492789527" name="Optimization level" superClass="org.eclipse.cdt.cross.arm.gnu.cpp.compiler.option.optimization.level" value="org.eclipse.cdt.cross.arm.gnu.base.option.optimization.level.none" valueType="enumerated"/>
+								<option id="org.eclipse.cdt.cross.arm.gnu.cpp.compiler.option.include.paths.1328904264" name="Include paths (-I)" superClass="org.eclipse.cdt.cross.arm.gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/user_config/awbl_hwconf_usrcfg}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/modbus/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/user_config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/user_cpp_code}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/user_code}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/interface/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/interface/posix&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/3rdparty/net/lwip_1.4.x/src/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/3rdparty/net/lwip_1.4.x/src/include/netif&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/3rdparty/net/lwip_1.4.x/src/include/ipv4&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/3rdparty/net/lwip_1.4.x/src/netif/ppp&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/3rdparty/net/lwip_1.4.x/src/lwip/opt&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/3rdparty/net/lwip_1.4.x/test/unit&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/bsp/easy_arm_17xxm3&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/bsp/easy_arm_17xxm3_512k_exram&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/components/awbus_lite/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/components/awbus_lite/config&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/components/libc/awlibc/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/components/libc/newlib/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/components/net/lwip_1.4.x_adapter/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/components/usb/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/components/shell/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/components/shell/config&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/components/base/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/components/base/config&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/components/newlib/source&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/cpu/nxp/ametal_lpc17xx/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/rtk/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/rtk/config&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/psp/rtk/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/psp/rtk/config&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/psp/cplusplus/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/board&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/common/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/CMSIS/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/drivers/include&quot;"/>
+								</option>
+								<option id="org.eclipse.cdt.cross.arm.gnu.cpp.compiler.option.misc.nortti.1800725832" name="Do not use RTTI (-fno-rtti)" superClass="org.eclipse.cdt.cross.arm.gnu.cpp.compiler.option.misc.nortti" value="false" valueType="boolean"/>
+								<option id="org.eclipse.cdt.cross.arm.gnu.cpp.compiler.option.misc.noexceptions.11548839" name="Do not use exceptions (-fno-exceptions)" superClass="org.eclipse.cdt.cross.arm.gnu.cpp.compiler.option.misc.noexceptions" value="false" valueType="boolean"/>
+								<option id="org.eclipse.cdt.cross.arm.gnu.cpp.compiler.option.preprocessor.def.893842987" name="Defined symbols (-D)" superClass="org.eclipse.cdt.cross.arm.gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__MICROLIB"/>
+									<listOptionValue builtIn="false" value="AW_LPC177X_8X"/>
+									<listOptionValue builtIn="false" value="AW_IMG_PRJ_BUILD"/>
+									<listOptionValue builtIn="false" value="AW_DEBUG"/>
+									<listOptionValue builtIn="false" value="AW_VDEBUG"/>
+									<listOptionValue builtIn="false" value="AW_VDEBUG_INFO"/>
+									<listOptionValue builtIn="false" value="AW_VDEBUG_WARN"/>
+									<listOptionValue builtIn="false" value="AW_VDEBUG_ERROR"/>
+									<listOptionValue builtIn="false" value="AW_CORTEX_M3"/>
+									<listOptionValue builtIn="false" value="AM_CORTEX_M3"/>
+								</option>
+								<option id="org.eclipse.cdt.cross.arm.gnu.cpp.compiler.option.optimization.datasections.2141061769" name="Data sections (-fdata-sections)" superClass="org.eclipse.cdt.cross.arm.gnu.cpp.compiler.option.optimization.datasections" value="true" valueType="boolean"/>
+								<option id="org.eclipse.cdt.cross.arm.gnu.cpp.compiler.option.optimization.functionsections.652191898" name="Function sections (-ffunction-sections)" superClass="org.eclipse.cdt.cross.arm.gnu.cpp.compiler.option.optimization.functionsections" value="true" valueType="boolean"/>
+								<inputType id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.cpp.compiler.base.input.1125167306" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.cpp.compiler.base.input"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.linker.debug.268822183" name="ARM Yagarto Windows GCC C Linker" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.linker.debug"/>
+							<tool command="arm-none-eabi-g++" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} -Wl,--start-group ${INPUTS} -Wl,--end-group" errorParsers="org.eclipse.cdt.core.GLDErrorParser" id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.linker.debug.890823539" name="ARM Yagarto Windows GCC C++ Linker" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.linker.debug">
+								<option id="org.eclipse.cdt.cross.arm.gnu.cpp.link.option.scriptfile.690072284" name="Script file (-T)" superClass="org.eclipse.cdt.cross.arm.gnu.cpp.link.option.scriptfile" value="../lpc17xx_flash.ld" valueType="string"/>
+								<option id="org.eclipse.cdt.cross.arm.gnu.cpp.link.option.nostart.630130731" name="Do not use standard start files (-nostartfiles)" superClass="org.eclipse.cdt.cross.arm.gnu.cpp.link.option.nostart" value="true" valueType="boolean"/>
+								<option id="org.eclipse.cdt.cross.arm.gnu.cpp.link.option.gcsections.564378042" name="Remove unused sections (-Xlinker --gc-sections)" superClass="org.eclipse.cdt.cross.arm.gnu.cpp.link.option.gcsections" value="true" valueType="boolean"/>
+								<option id="org.eclipse.cdt.cross.arm.gnu.cpp.link.option.libs.685907203" name="Libraries (-l)" superClass="org.eclipse.cdt.cross.arm.gnu.cpp.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="m"/>
+									<listOptionValue builtIn="false" value="aw_lpc177x_8x_z"/>
+									<listOptionValue builtIn="false" value="aw_common"/>
+									<listOptionValue builtIn="false" value="aw_usb"/>
+									<listOptionValue builtIn="false" value="awbl_core_z"/>
+									<listOptionValue builtIn="false" value="aw_lwip_1.4.x"/>
+									<listOptionValue builtIn="false" value="aw_lwip_1.4.x_adapter"/>
+									<listOptionValue builtIn="false" value="aw_modbus"/>
+								</option>
+								<option id="org.eclipse.cdt.cross.arm.gnu.cpp.link.option.paths.1089209410" name="Library search path (-L)" superClass="org.eclipse.cdt.cross.arm.gnu.cpp.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${APOLLO_ROOT}/lib/cortex_m3_rtk_gcc_debug&quot;"/>
+								</option>
+								<inputType id="org.eclipse.cdt.cross.arm.gnu.cpp.linker.input.1981129828" superClass="org.eclipse.cdt.cross.arm.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.archiver.base.411505944" name="ARM Yagarto Windows GCC Archiver" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.archiver.base"/>
+							<tool command="arm-none-eabi-objcopy" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="" id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.createflash.debug.1506916243" name="ARM Yagarto Windows GNU Create Flash Image" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.createflash.debug">
+								<option id="org.eclipse.cdt.cross.arm.gnu.createflash.out.choice.633155395" name="Output file format (-O)" superClass="org.eclipse.cdt.cross.arm.gnu.createflash.out.choice" value="org.eclipse.cdt.cross.arm.gnu.createflash.out.choice.binary" valueType="enumerated"/>
+							</tool>
+							<tool command="arm-none-eabi-objdump" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="" id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.createlisting.debug.1198015269" name="ARM Yagarto Windows GNU Create Listing" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.createlisting.debug"/>
+							<tool command="arm-none-eabi-size" commandLinePattern="${COMMAND} ${INPUTS} ${FLAGS}" errorParsers="" id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.printsize.debug.934542517" name="ARM Yagarto Windows GNU Print Size" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.printsize.debug"/>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.debug.700741935.2136656528" name="/" resourcePath="apollo/rtk/config">
+						<toolChain id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.toolchain.debug.22074727" name="ARM Windows GCC (Yagarto)" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.toolchain.debug" unusedChildren="">
+							<option id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.debugging.level.1441701995.1267446080" name="Debug level" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.debugging.level.1441701995"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.target.processor.1595579818.384387663" name="Processor" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.target.processor.1595579818"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.addtools.createlisting.79618189.501369848" name="Create Extended Listing" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.addtools.createlisting.79618189"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.target.thumb.1589516615.876638374" name="Thumb (-mthumb)" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.target.thumb.1589516615"/>
+							<targetPlatform id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.platform.debug" isAbstract="false" name="Windows Platform" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.platform.debug"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.assembler.debug.2012345155" name="ARM Yagarto Windows GCC Assembler" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.assembler.debug.275652184">
+								<inputType id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.assembler.base.input.193005406" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.assembler.base.input"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.compiler.debug.463383683" name="ARM Yagarto Windows GCC C Compiler" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.compiler.debug.1410355104">
+								<inputType id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.c.compiler.base.input.1752964018" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.c.compiler.base.input"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.compiler.debug.1192200029" name="ARM Yagarto Windows GCC C++ Compiler" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.compiler.debug.1919668542">
+								<inputType id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.cpp.compiler.base.input.1557560494" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.cpp.compiler.base.input"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.linker.debug.772735971" name="ARM Yagarto Windows GCC C Linker" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.linker.debug.268822183"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.linker.debug.1451432403" name="ARM Yagarto Windows GCC C++ Linker" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.linker.debug.890823539"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.archiver.base.1625445605" name="ARM Yagarto Windows GCC Archiver" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.archiver.base.411505944"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.createflash.debug.208149662" name="ARM Yagarto Windows GNU Create Flash Image" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.createflash.debug.1506916243"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.createlisting.debug.1442264583" name="ARM Yagarto Windows GNU Create Listing" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.createlisting.debug.1198015269"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.printsize.debug.1916122364" name="ARM Yagarto Windows GNU Print Size" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.printsize.debug.934542517"/>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.debug.700741935.684146820" name="/" resourcePath="apollo/bsp/easy_arm_17xxm3">
+						<toolChain id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.toolchain.debug.498740454" name="ARM Windows GCC (Yagarto)" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.toolchain.debug" unusedChildren="">
+							<option id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.debugging.level.1441701995.1501580786" name="Debug level" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.debugging.level.1441701995"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.target.processor.1595579818.1009018413" name="Processor" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.target.processor.1595579818"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.addtools.createlisting.79618189.1360106612" name="Create Extended Listing" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.addtools.createlisting.79618189"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.target.thumb.1589516615.1262450587" name="Thumb (-mthumb)" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.target.thumb.1589516615"/>
+							<targetPlatform id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.platform.debug" isAbstract="false" name="Windows Platform" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.platform.debug"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.assembler.debug.956082137" name="ARM Yagarto Windows GCC Assembler" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.assembler.debug.275652184">
+								<inputType id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.assembler.base.input.2107166573" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.assembler.base.input"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.compiler.debug.662954199" name="ARM Yagarto Windows GCC C Compiler" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.compiler.debug.1410355104">
+								<inputType id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.c.compiler.base.input.1097015733" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.c.compiler.base.input"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.compiler.debug.1673253015" name="ARM Yagarto Windows GCC C++ Compiler" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.compiler.debug.1919668542">
+								<inputType id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.cpp.compiler.base.input.1409564148" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.cpp.compiler.base.input"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.linker.debug.222247532" name="ARM Yagarto Windows GCC C Linker" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.linker.debug.268822183"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.linker.debug.1511349497" name="ARM Yagarto Windows GCC C++ Linker" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.linker.debug.890823539"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.archiver.base.1892755265" name="ARM Yagarto Windows GCC Archiver" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.archiver.base.411505944"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.createflash.debug.2139950457" name="ARM Yagarto Windows GNU Create Flash Image" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.createflash.debug.1506916243"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.createlisting.debug.478311469" name="ARM Yagarto Windows GNU Create Listing" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.createlisting.debug.1198015269"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.printsize.debug.220709950" name="ARM Yagarto Windows GNU Print Size" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.printsize.debug.934542517"/>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.debug.700741935.635768083" name="card_reader_new.h" rcbsApplicability="disable" resourcePath="user_code/acp1000/card_reader.h" toolsToInvoke=""/>
+					<folderInfo id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.debug.700741935.1494399410" name="/" resourcePath="user_code/ammeter">
+						<toolChain id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.toolchain.debug.71606988" name="ARM Windows GCC (Yagarto)" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.toolchain.debug" unusedChildren="">
+							<option id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.debugging.level.1441701995.914571925" name="Debug level" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.debugging.level.1441701995"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.target.processor.1595579818.1976707633" name="Processor" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.target.processor.1595579818"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.addtools.createlisting.79618189.734878309" name="Create Extended Listing" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.addtools.createlisting.79618189"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.target.thumb.1589516615.818093711" name="Thumb (-mthumb)" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.target.thumb.1589516615"/>
+							<targetPlatform id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.platform.debug" isAbstract="false" name="Windows Platform" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.platform.debug"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.assembler.debug.488129938" name="ARM Yagarto Windows GCC Assembler" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.assembler.debug.275652184">
+								<inputType id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.assembler.base.input.759431978" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.assembler.base.input"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.compiler.debug.2028035497" name="ARM Yagarto Windows GCC C Compiler" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.compiler.debug.1410355104">
+								<inputType id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.c.compiler.base.input.1599948563" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.c.compiler.base.input"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.compiler.debug.1142499571" name="ARM Yagarto Windows GCC C++ Compiler" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.compiler.debug.1919668542">
+								<inputType id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.cpp.compiler.base.input.230237682" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.cpp.compiler.base.input"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.linker.debug.175430270" name="ARM Yagarto Windows GCC C Linker" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.linker.debug.268822183"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.linker.debug.1841631936" name="ARM Yagarto Windows GCC C++ Linker" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.linker.debug.890823539"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.archiver.base.309610819" name="ARM Yagarto Windows GCC Archiver" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.archiver.base.411505944"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.createflash.debug.52435258" name="ARM Yagarto Windows GNU Create Flash Image" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.createflash.debug.1506916243"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.createlisting.debug.683886274" name="ARM Yagarto Windows GNU Create Listing" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.createlisting.debug.1198015269"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.printsize.debug.1691820197" name="ARM Yagarto Windows GNU Print Size" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.printsize.debug.934542517"/>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.debug.700741935.1606882833" name="/" resourcePath="user_code/mb">
+						<toolChain id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.toolchain.debug.1059805897" name="ARM Windows GCC (Yagarto)" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.toolchain.debug" unusedChildren="">
+							<option id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.debugging.level.1441701995.931606386" name="Debug level" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.debugging.level.1441701995"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.target.processor.1595579818.1106891540" name="Processor" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.target.processor.1595579818"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.addtools.createlisting.79618189.521597448" name="Create Extended Listing" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.addtools.createlisting.79618189"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.target.thumb.1589516615.847526105" name="Thumb (-mthumb)" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.target.thumb.1589516615"/>
+							<targetPlatform id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.platform.debug" isAbstract="false" name="Windows Platform" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.platform.debug"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.assembler.debug.2061335028" name="ARM Yagarto Windows GCC Assembler" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.assembler.debug.275652184">
+								<inputType id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.assembler.base.input.679466207" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.assembler.base.input"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.compiler.debug.1376506745" name="ARM Yagarto Windows GCC C Compiler" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.compiler.debug.1410355104">
+								<inputType id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.c.compiler.base.input.511781320" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.c.compiler.base.input"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.compiler.debug.2143806628" name="ARM Yagarto Windows GCC C++ Compiler" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.compiler.debug.1919668542">
+								<inputType id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.cpp.compiler.base.input.1552929747" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.cpp.compiler.base.input"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.linker.debug.1831451267" name="ARM Yagarto Windows GCC C Linker" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.linker.debug.268822183"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.linker.debug.1002957264" name="ARM Yagarto Windows GCC C++ Linker" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.linker.debug.890823539"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.archiver.base.620151503" name="ARM Yagarto Windows GCC Archiver" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.archiver.base.411505944"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.createflash.debug.1597654399" name="ARM Yagarto Windows GNU Create Flash Image" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.createflash.debug.1506916243"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.createlisting.debug.373438748" name="ARM Yagarto Windows GNU Create Listing" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.createlisting.debug.1198015269"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.printsize.debug.286860171" name="ARM Yagarto Windows GNU Print Size" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.printsize.debug.934542517"/>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.debug.700741935.859326327" name="/" resourcePath="user_cpp_code">
+						<toolChain id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.toolchain.debug.610690156" name="ARM Windows GCC (Yagarto)" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.toolchain.debug" unusedChildren="">
+							<option id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.debugging.level.1441701995.565110335" name="Debug level" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.debugging.level.1441701995"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.target.processor.1595579818.1780267354" name="Processor" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.target.processor.1595579818"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.addtools.createlisting.79618189.2019294802" name="Create Extended Listing" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.addtools.createlisting.79618189"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.target.thumb.1589516615.769173552" name="Thumb (-mthumb)" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.target.thumb.1589516615"/>
+							<targetPlatform id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.platform.debug" isAbstract="false" name="Windows Platform" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.platform.debug"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.assembler.debug.297092230" name="ARM Yagarto Windows GCC Assembler" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.assembler.debug.275652184">
+								<inputType id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.assembler.base.input.571450134" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.assembler.base.input"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.compiler.debug.1731157442" name="ARM Yagarto Windows GCC C Compiler" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.compiler.debug.1410355104">
+								<inputType id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.c.compiler.base.input.1690869697" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.c.compiler.base.input"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.compiler.debug.1215378480" name="ARM Yagarto Windows GCC C++ Compiler" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.compiler.debug.1919668542">
+								<inputType id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.cpp.compiler.base.input.1334849417" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.cpp.compiler.base.input"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.linker.debug.1636045099" name="ARM Yagarto Windows GCC C Linker" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.linker.debug.268822183"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.linker.debug.346224506" name="ARM Yagarto Windows GCC C++ Linker" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.linker.debug.890823539"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.archiver.base.75931931" name="ARM Yagarto Windows GCC Archiver" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.archiver.base.411505944"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.createflash.debug.179894013" name="ARM Yagarto Windows GNU Create Flash Image" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.createflash.debug.1506916243"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.createlisting.debug.1438547967" name="ARM Yagarto Windows GNU Create Listing" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.createlisting.debug.1198015269"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.printsize.debug.579276333" name="ARM Yagarto Windows GNU Print Size" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.printsize.debug.934542517"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="user_code/cardreader/card_adapter.c|user_code/cardreader/aw_card_reader.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/drivers/source/amdr_timer_cap.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_enet.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/drivers/source/amdr_mcpwm_cap.c|apollo/bsp/easy_arm_17xxm3/aw_bsp_ostimer.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/drivers/source/amdr_can.c|user_config/base/source/os/aw_vsnprintf.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/drivers/source/amdr_timer_timing.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_emc.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/drivers/source/amdr_wwdt.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/startup|apollo/3rdparty/net/lwip_1.4.x/src/core/ipv6|apollo/rtk/config|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_rtc.c|apollo/components/net/lwip_1.4.x_adapter/source|user_code/startup|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_timer.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_pwm.c|user_config/base/source/util/aw_md5.c|apollo/bsp/easy_arm_17xxm3/aw_bsp_mem.c|apollo/3rdparty/net/lwip_1.4.x/httpserver_raw/fs|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_power.c|apollo/3rdparty/net/lwip_1.4.x/httpserver_raw/makefsdata|apollo/components/newlib|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/drivers/source/amdr_mci.c|user_code/test|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_adc.c|apollo/psp/cplusplus/include|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/am_phylan_ksz8041.c|apollo/3rdparty/net/lwip_1.4.x/httpserver_raw/fsdata.c|user_config/base/source/os/aw_snprintf.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/CMSIS|apollo/components/shell/config|user_config/base/source/os/aw_vfprintf_do.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/common/source|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_usbd.c|apollo/3rdparty/net/lwip_1.4.x/src/include/ipv6|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/drivers/source/amdr_mcpwm.c|apollo/bsp/easy_arm_17xxm3/aw_bsp_startup.c|user_code/task|apollo/components/libc/awlibc|user_code/hub4g|apollo/bsp/easy_arm_17xxm3_512k_exram|user_config/base/source/util/aw_pbuf.c|apollo/components/base/config|user_config/awbl_spibus.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/drivers/source/amdr_dac.c|apollo/rtk/cplusplus/include|user_config/awbl_ametal_spi.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_lcd.c|apollo/3rdparty/net/lwip_1.4.x/src/netif|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/drivers/source/amdr_gpio.c|apollo/cpu/nxp/ametal_lpc17xx/source|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_clock.c|user_config/base|user_cpp_code|user_code/aw_bsp_ostimer.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_iap.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/drivers/source/amdr_rtc.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/drivers/source/amdr_pwm.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_i2c.c|apollo/components/usb|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/drivers/source/amdr_eeprom.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/drivers/source/amdr_dma.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/drivers/source/amdr_crc.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/drivers/source/amdr_int.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/examples|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/projects_eclipse|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_crc.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/drivers/source/amdr_qei.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_pll.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/drivers/source/amdr_lcd.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/documents|apollo/components/awbus_lite/config|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_usart.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/drivers/source/amdr_i2c.c|apollo/3rdparty/net/lwip_1.4.x/src/api|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/drivers/source/amdr_i2s.c|apollo/3rdparty/net/lwip_1.4.x/src/core|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/board|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_pincon.c|user_config/base/config|apollo/psp/rtk/config|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_ssp.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/drivers/source/amdr_pwm_cap.c|apollo/components/shell/source|apollo/examples|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_mcpwm.c|apollo/lib|user_config/base/source/eio/aw_eio.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.release.915292504">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.release.915292504" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.cross.arm.gnu.buildArtefactType.application" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.cross.arm.gnu.buildArtefactType.application,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" description="" id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.release.915292504" name="Release" parent="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.release">
+					<folderInfo id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.release.915292504." name="/" resourcePath="">
+						<toolChain id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.toolchain.release.1312667459" name="ARM Windows GCC (Yagarto)" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.toolchain.release">
+							<option id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.debugging.level.1030928185" name="Debug level" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.option.debugging.level" value="org.eclipse.cdt.cross.arm.gnu.base.option.debugging.level.none" valueType="enumerated"/>
+							<targetPlatform id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.platform.release.693903457" isAbstract="false" name="Windows Platform" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.platform.release"/>
+							<builder buildPath="${workspace_loc:/ac_charger_main_board}/Release" id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.builder.release.1824795637" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="ARM Yagarto Windows GNU Make builder" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.builder.release"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.assembler.release.238938974" name="ARM Yagarto Windows GCC Assembler" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.assembler.release">
+								<inputType id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.assembler.base.input.23906507" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.assembler.base.input"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.compiler.release.1997314092" name="ARM Yagarto Windows GCC C Compiler" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.compiler.release">
+								<option id="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.optimization.level.885070812" name="Optimization level" superClass="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.optimization.level" value="org.eclipse.cdt.cross.arm.gnu.base.option.optimization.level.size" valueType="enumerated"/>
+								<inputType id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.c.compiler.base.input.1787331779" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.c.compiler.base.input"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.compiler.release.930871282" name="ARM Yagarto Windows GCC C++ Compiler" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.compiler.release">
+								<option id="org.eclipse.cdt.cross.arm.gnu.cpp.compiler.option.optimization.level.22169088" name="Optimization level" superClass="org.eclipse.cdt.cross.arm.gnu.cpp.compiler.option.optimization.level" value="org.eclipse.cdt.cross.arm.gnu.base.option.optimization.level.size" valueType="enumerated"/>
+								<inputType id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.cpp.compiler.base.input.1716544443" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.cpp.compiler.base.input"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.linker.release.1772046729" name="ARM Yagarto Windows GCC C Linker" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.linker.release"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.linker.release.711475234" name="ARM Yagarto Windows GCC C++ Linker" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.linker.release">
+								<inputType id="org.eclipse.cdt.cross.arm.gnu.cpp.linker.input.1411373876" superClass="org.eclipse.cdt.cross.arm.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.archiver.base.1777243238" name="ARM Yagarto Windows GCC Archiver" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.archiver.base"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.createflash.release.197961143" name="ARM Yagarto Windows GNU Create Flash Image" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.createflash.release"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.createlisting.release.407661636" name="ARM Yagarto Windows GNU Create Listing" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.createlisting.release"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.printsize.release.2071984305" name="ARM Yagarto Windows GNU Print Size" superClass="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.printsize.release"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_enet.c|apollo/bsp/easy_arm_17xxm3/aw_bsp_system.c|user_code/acp1000|apollo/bsp/easy_arm_17xxm3/aw_bsp_ostimer.c|user_code/ammeter|user_config/base/source/os/aw_vsnprintf.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_emc.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/startup|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_rtc.c|user_code/startup|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_timer.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_pwm.c|user_config/base/source/util/aw_md5.c|apollo/bsp/easy_arm_17xxm3/aw_bsp_mem.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_power.c|user_code/test|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_adc.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/am_phylan_ksz8041.c|user_config/base/source/os/aw_snprintf.c|apollo/components/net/modbus|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/CMSIS|user_config/base/source/os/aw_vfprintf_do.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_usbd.c|apollo/bsp/easy_arm_17xxm3/aw_bsp_startup.c|user_code/task|user_code/hub4g|user_config/base/source/util/aw_pbuf.c|user_config/awbl_spibus.c|user_config/awbl_ametal_spi.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_lcd.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_clock.c|user_config/base|user_code/aw_bsp_ostimer.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_iap.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/drivers/source/amdr_pwm.c|user_code/cardreader|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_i2c.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/projects_eclipse|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/examples|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_crc.c|user_code/mb|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_pll.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/documents|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_usart.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/board|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_pincon.c|user_config/base/config|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_ssp.c|apollo/metal/nxp/ametal_easy_arm_lpc177x_8x/ametal/lpc177x_8x/hw/source/amhw_mcpwm.c|user_config/base/source/eio/aw_eio.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="ac_charger_main_board.org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.568164779" name="ARM Cross Target Application" projectType="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/ac_charger_main_board"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/ac_charger_main_board"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.release.915292504;org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.release.915292504.;org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.assembler.release.238938974;org.eclipse.cdt.cross.arm.gnu.yagarto.windows.assembler.base.input.23906507">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.cross.arm.gnu.ARM_YG_GCCWinManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.release.915292504;org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.release.915292504.;org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.compiler.release.930871282;org.eclipse.cdt.cross.arm.gnu.yagarto.windows.cpp.compiler.base.input.1716544443">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.cross.arm.gnu.ARM_YG_GCCWinManagedMakePerProjectProfileCPP"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.debug.700741935;org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.debug.700741935.;org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.compiler.debug.1410355104;org.eclipse.cdt.cross.arm.gnu.yagarto.windows.c.compiler.base.input.1756454802">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.cross.arm.gnu.ARM_YG_GCCWinManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.release.915292504;org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.release.915292504.;org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.c.compiler.release.1997314092;org.eclipse.cdt.cross.arm.gnu.yagarto.windows.c.compiler.base.input.1787331779">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.cross.arm.gnu.ARM_YG_GCCWinManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.debug.700741935;org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.debug.700741935.;org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.cpp.compiler.debug.1919668542;org.eclipse.cdt.cross.arm.gnu.yagarto.windows.cpp.compiler.base.input.1125167306">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.cross.arm.gnu.ARM_YG_GCCWinManagedMakePerProjectProfileCPP"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.debug.700741935;org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.debug.700741935.;org.eclipse.cdt.cross.arm.gnu.yagarto.windows.elf.assembler.debug.275652184;org.eclipse.cdt.cross.arm.gnu.yagarto.windows.assembler.base.input.651835854">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.cross.arm.gnu.ARM_YG_GCCWinManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+</cproject>
